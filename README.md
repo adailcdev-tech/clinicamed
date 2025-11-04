@@ -18,8 +18,8 @@
 | DB | MySQL |
 
 ## Deploy
-- Front: [clinicamed.adailc.dev](https://clinicamed.vercel.app)  *(faça no Vercel AGORA)*
-- API: [api.clinicamed.railway.app](...)  *(futuro)*
+- Front: [clinicamed.adailc.dev](https://clinicamed.vercel.app)  
+- API: [api.clinicamed.railway.app](...)  
 
 ## Como Rodar
 ```bash
