@@ -1,30 +1,27 @@
 # ClinicaMed – Sistema de Gestão Médica
 
-> Sistema full-stack com login JWT, dashboard e CRUD de pacientes.
+> Full-stack: Login JWT, Dashboard (Chart.js), CRUD pacientes. Substitui Java Swing por web moderno.
 
-![Demo](https://clinicamed.adail.dev/demo.gif)
+<image-card alt="Demo GIF aqui" src="https://via.placeholder.com/800x400?text=Login+Demo" ></image-card>  
 
 ## Funcionalidades
-- Login seguro com JWT
-- Dashboard com gráficos (Chart.js)
-- Gerenciamento de pacientes
-- Responsivo (mobile-first)
+- Login/Logout seguro
+- Dashboard com métricas/gráficos
+- Tabela de pacientes (futuro CRUD)
 
 ## Tech Stack
 | Camada | Tech |
-|-------|------|
+|--------|------|
 | Front | React + Vite + Tailwind |
-| Back  | Node.js + Express + MySQL |
-| Auth  | JWT + bcrypt |
+| Estado | Zustand |
+| Back | Node.js + Express + JWT |
+| DB | MySQL |
 
 ## Deploy
-- Frontend: [clinicamed.adail.dev](https://clinicamed.adail.dev)
-- API: [api.clinicamed.up.railway.app](https://api.clinicamed.up.railway.app)
+- Front: [clinicamed.adailc.dev](https://clinicamed.vercel.app)  *(faça no Vercel AGORA)*
+- API: [api.clinicamed.railway.app](...)  *(futuro)*
 
-## Como rodar local
+## Como Rodar
 ```bash
-# Frontend
-cd frontend && npm run dev
-
-# Backend
-cd backend && npm run dev
+cd frontend && npm install && npm run dev  # http://localhost:5173
+cd backend && npm install && npm run dev   # http://localhost:3001
